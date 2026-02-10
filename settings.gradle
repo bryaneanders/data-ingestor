@@ -1,0 +1,5 @@
+rootProject.name = 'data-ingestor'
+
+include 'ingest'
+include 'process'
+include 'write'

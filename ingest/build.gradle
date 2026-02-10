@@ -1,0 +1,7 @@
+application {
+    mainClass = 'com.dataingestor.ingest.IngestApplication'
+}
+
+dependencies {
+    implementation 'info.picocli:picocli:4.7.6'
+}

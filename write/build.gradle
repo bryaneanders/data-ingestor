@@ -1,0 +1,11 @@
+application {
+    mainClass = 'com.dataingestor.writer.WriterApplication'
+}
+
+dependencies {
+    implementation 'info.picocli:picocli:4.7.6'
+
+    // Add database drivers as needed
+    // implementation 'org.postgresql:postgresql:42.7.4'
+    // implementation 'com.mysql:mysql-connector-j:9.1.0'
+}

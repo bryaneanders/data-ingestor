@@ -1,0 +1,7 @@
+application {
+    mainClass = 'com.dataingestor.processing.ProcessingApplication'
+}
+
+dependencies {
+    implementation 'info.picocli:picocli:4.7.6'
+}
