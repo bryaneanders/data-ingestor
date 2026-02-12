@@ -13,7 +13,6 @@ allprojects {
 
 subprojects {
     apply plugin: 'java'
-    apply plugin: 'application'
 
     java {
         toolchain {
@@ -34,6 +33,11 @@ subprojects {
     test {
         useJUnitPlatform()
     }
+}
+
+// Only application modules get the fatJar task
+configure(subprojects.findAll { it.name in ['ingest', 'process', 'write'] }) {
+    apply plugin: 'application'
 
     tasks.register('fatJar', Jar) {
         archiveClassifier = 'fat'

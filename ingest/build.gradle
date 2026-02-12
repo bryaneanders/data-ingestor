@@ -3,5 +3,7 @@ application {
 }
 
 dependencies {
+    implementation project(':common')
     implementation 'info.picocli:picocli:4.7.6'
+    implementation 'com.opencsv:opencsv:5.9'
 }

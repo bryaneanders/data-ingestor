@@ -12,5 +12,6 @@ public interface DataSource<T> {
      *
      * @return stream of records from the data source
      */
-    Stream<T> ingest();
+    //Stream<T> ingest();
+    void ingest();
 }

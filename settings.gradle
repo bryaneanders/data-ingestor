@@ -1,5 +1,6 @@
 rootProject.name = 'data-ingestor'
 
+include 'common'
 include 'ingest'
 include 'process'
 include 'write'
